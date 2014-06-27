@@ -173,12 +173,6 @@ nav ul {
 #ancla2 {
 	margin-top: 110px;
 }
-.cajaProgress {
-	width: 320px;
-	position: absolute;
-	left: 50%;
-	margin-left: -160px;
-}
 
 progress[value] {
 	/* Elimino la apariencia por defecto */
@@ -202,9 +196,10 @@ progress[value] {
 }
 
 .progress{
-	float:left;
-	margin-right:30px;
-	margin-bottom:20px;
+	width: 320px;
+	position: absolute;
+	left: 50%;
+	margin-left: -160px;
 }
 
 .progress span{
