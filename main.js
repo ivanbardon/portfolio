@@ -15,7 +15,7 @@ $(document).on('ready',function init(){
 					$('body,html').stop(true,true).animate({
 				    scrollTop: $('#navBar').offset().top
 				  })
-				  animateprogress('#geoProgress',25)
+				  animateprogress('#geoProgress',75)
 				})
 			}
 			else if (el=='b2') {
