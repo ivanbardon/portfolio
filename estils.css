@@ -196,10 +196,10 @@ progress[value] {
 }
 
 .progress{
-	width: 320px;
+	width: 300px;
 	position: absolute;
 	left: 50%;
-	margin-left: -160px;
+	margin-left: -150px;
 }
 
 .progress span{
