@@ -116,6 +116,7 @@ nav ul {
 }
 #nav2 article {
 	padding: 15px;
+	display: none;
 }
 #nav2 article figure {
 	border-radius: 50%;
