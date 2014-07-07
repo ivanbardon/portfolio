@@ -81,11 +81,7 @@ ul li p {
 	font-size: 1.5em;
 	font-weight: lighter;
 	margin-left: 28%;
-<<<<<<< HEAD
 	margin-top: 24%;
-=======
-	margin-top: 25%;
->>>>>>> 79861fb08cf441344381cd40dbcb60dfd99082c0
 	position: absolute;
 
 }
@@ -119,7 +115,6 @@ nav ul {
 	background-color: #01DF74;
 }
 #nav2 article {
-<<<<<<< HEAD
 	padding: 15px;
 }
 #nav2 article figure {
@@ -140,7 +135,6 @@ nav ul {
 }
 #nav2 article h2 {
 	margin-top: -10px;
-=======
 	padding: 5px;
 }
 #nav2 article ul li{
@@ -163,7 +157,6 @@ nav ul {
 	vertical-align: bottom;
 	margin-bottom: 50px;
 	margin-left: 25px;
->>>>>>> 79861fb08cf441344381cd40dbcb60dfd99082c0
 	font-size: 2em;
 	font-weight: lighter;
 }
@@ -188,10 +181,7 @@ nav ul {
 	position: absolute;
 	left: 50%;
 	margin-left: -140px;
-<<<<<<< HEAD
-=======
 	margin-top: 55px;
->>>>>>> 79861fb08cf441344381cd40dbcb60dfd99082c0
 }
 #cajaNombre {
 	display: block; 
@@ -200,7 +190,6 @@ nav ul {
 	left: 50%;  
 	margin-left: -100px;
 }
-<<<<<<< HEAD
 .cajaTitulo {
 	display: inline-block;
 }
@@ -209,10 +198,9 @@ nav ul {
 }
 .progress {
 	margin-top: -10px;
-=======
+}
 #ancla2 {
 	margin-top: 110px;
->>>>>>> 79861fb08cf441344381cd40dbcb60dfd99082c0
 }
 
 progress[value] {
@@ -225,15 +213,8 @@ progress[value] {
 	border: none;
 
 	/* Añado mis propios estilos */
-<<<<<<< HEAD
 	width: 100px;
 	height: 10px;
-=======
-	width: 270px;
-	height: 30px;
->>>>>>> 79861fb08cf441344381cd40dbcb60dfd99082c0
-	
-	
 /* 	Estos estilos solo se aplicaran al fondo de la barra en mozilla */
 	overflow:hidden;
 	border:1px inset #666;
@@ -241,15 +222,11 @@ progress[value] {
 	border-radius : 20px ; 
 }
 
-<<<<<<< HEAD
-=======
 .progress{
 	float:left;
 	margin-right:30px;
 	margin-bottom:20px;
 }
-
->>>>>>> 79861fb08cf441344381cd40dbcb60dfd99082c0
 .progress span{
 	
 	font-weight:bold;

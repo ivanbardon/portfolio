@@ -15,11 +15,7 @@ $(document).on('ready',function init(){
 					$('body,html').stop(true,true).animate({
 				    scrollTop: $('#navBar').offset().top
 				  })
-<<<<<<< HEAD
 				  animateprogress('#geoProgress',75)
-=======
-				  animateprogress('#geoProgress',25)
->>>>>>> 79861fb08cf441344381cd40dbcb60dfd99082c0
 				})
 			}
 			else if (el=='b2') {
