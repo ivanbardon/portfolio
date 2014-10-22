@@ -21,7 +21,7 @@ address {
 	text-align: center;
 }
 body {
-	color: #333;
+	color: #424242;
 	font-family: 'Fira Mono';
 	font-size: 18px;
 }
@@ -116,6 +116,7 @@ nav ul {
 }
 #nav2 article {
 	padding: 15px;
+	display: none;
 }
 #nav2 article figure {
 	border-radius: 50%;
@@ -167,6 +168,9 @@ nav ul {
 	border: none;
 	font-size: 0.7em;
 	cursor: pointer;
+}
+#nav2 article button:active {
+	
 }
 .btnRetorno {
 	background-color: #E6E6E6;
