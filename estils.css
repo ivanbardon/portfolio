@@ -26,16 +26,22 @@ body {
 	font-size: 18px;
 }
 nav ul li {
-	border-radius: 50%;
-	display: inline-block;
-	height: 60px;
 	list-style: none;
-	margin: 5px;
+}
+nav ul li figure {
+	border-radius: 50%;
+	height: 92px;
 	position: relative;
-	width: 60px;
+	width: 92px;
 	cursor: pointer;
 	box-shadow: 2px 2px 2px #E6E6E6;
+	margin-top: 46px;
+	left: 50%;
+	margin-left: -46px;
 
+}
+nav p {
+	text-align: center;
 }
 header figure {
 	text-align: center;
@@ -76,12 +82,12 @@ header h4 {
 	font-size: 0.7em;
 
 }
-ul li p {
+nav ul li p {
 	color: white;
 	font-size: 1.5em;
 	font-weight: lighter;
-	margin-left: 28%;
-	margin-top: 24%;
+	margin-left: 33%;
+	margin-top: 33%;
 	position: absolute;
 
 }
@@ -95,6 +101,7 @@ nav ul {
 }
 .avatar {
 	border-radius: 50%;
+	border: 3px solid black;
 	height: 112px;
 	width: auto;
 }
@@ -197,77 +204,7 @@ nav ul {
 .cajaTitulo {
 	display: inline-block;
 }
-#ancla2 {
-	margin-top: 40px;
-}
-.progress {
-	margin-top: -10px;
-}
+
 #ancla2 {
 	margin-top: 110px;
-}
-
-progress[value] {
-	/* Elimino la apariencia por defecto */
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
-	
-	/* Quito el borde que aparece en Firefox */
-	border: none;
-
-	/* Añado mis propios estilos */
-	width: 100px;
-	height: 10px;
-/* 	Estos estilos solo se aplicaran al fondo de la barra en mozilla */
-	overflow:hidden;
-	border:1px inset #666;
-	background-color:#D8D8D8;
-	border-radius : 20px ; 
-}
-
-.progress{
-	float:left;
-	margin-right:30px;
-	margin-bottom:20px;
-}
-.progress span{
-	
-	font-weight:bold;
-	
-
-}
-
-/* Compatibilidad de color en Firefox, Chrome y Safari */
-progress::-moz-progress-bar{ 
-	background: #58D3F7;
-	background: rgba(88,211,247,1);
-	background: -moz-linear-gradient(left, rgba(88,211,247,1) 0%, rgba(88,211,247,1) 100%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(88,211,247,1)), color-stop(100%, rgba(88,211,247,1)));
-	background: -webkit-linear-gradient(left, rgba(88,211,247,1) 0%, rgba(88,211,247,1) 100%);
-	background: -o-linear-gradient(left, rgba(88,211,247,1) 0%, rgba(88,211,247,1) 100%);
-	background: -ms-linear-gradient(left, rgba(88,211,247,1) 0%, rgba(88,211,247,1) 100%);
-	background: linear-gradient(to right, rgba(88,211,247,1) 0%, rgba(88,211,247,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff920a', GradientType=1 );	
-	border-radius : 20px ; 
-	} 
-progress::-webkit-progress-value { 
-	background: #58D3F7;
-	background: rgba(88,211,247,1);
-	background: -moz-linear-gradient(left, rgba(88,211,247,1) 0%, rgba(88,211,247,1) 100%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(88,211,247,1)), color-stop(100%, rgba(88,211,247,1)));
-	background: -webkit-linear-gradient(left, rgba(88,211,247,1) 0%, rgba(88,211,247,1) 100%);
-	background: -o-linear-gradient(left, rgba(88,211,247,1) 0%, rgba(88,211,247,1) 100%);
-	background: -ms-linear-gradient(left, rgba(88,211,247,1) 0%, rgba(88,211,247,1) 100%);
-	background: linear-gradient(to right, rgba(88,211,247,1) 0%, rgba(88,211,247,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#58D3F7', endColorstr='#58D3F7', GradientType=1 );
-	border-radius : 20px ; 	
-
-}
-progress::-webkit-progress-bar { 
-	background-color:#D8D8D8;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
-	border-radius : 20px ; 
-		
-	
 }
