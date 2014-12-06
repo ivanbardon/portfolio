@@ -1,13 +1,15 @@
-var botones,selec,cajaNombre;
+var botones,selec,cajaNombre,bio;
 
 $(document).on('ready',function init(){
 	botones = $('nav ul li');
 	selec = $('article ul li');
+    bio = $('#bio');
 
 	botones.on('click', function(){
 		
 		var el=$(this).attr('id');
 		$('#nav2').fadeIn(200, function(){
+			bio.fadeOut();
 			botones.fadeOut(500,function(){
 				if (el=='b1') {
 					$('#s1').fadeIn(500,function () {
@@ -66,7 +68,9 @@ $(document).on('ready',function init(){
 	$('.btnRetorno').on('click', function () {
 		$('#nav2').fadeOut(500,function(){
 			$('article').fadeOut(500, function(){
-				botones.fadeIn(500)
+				botones.fadeIn(500);
+				bio.fadeIn();
+
 			});
 			
 		})
