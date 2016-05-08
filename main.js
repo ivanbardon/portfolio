@@ -1,79 +1,25 @@
-var botones,selec,cajaNombre,bio;
 
-$(document).on('ready',function init(){
-	botones = $('nav ul li');
-	selec = $('article ul li');
-    bio = $('#bio');
-
-	botones.on('click', function(){
-		
-		var el=$(this).attr('id');
-		$('#nav2').fadeIn(200, function(){
-			bio.fadeOut();
-			botones.fadeOut(500,function(){
-				if (el=='b1') {
-					$('#s1').fadeIn(500,function () {
-						$('body,html').stop(true,true).animate({
-					    scrollTop: $('#navBar').offset().top
-					  })
-					})
-				}
-				else if (el=='b2') {
-					$('#s2').fadeIn(500,function () {
-						$('body,html').stop(true,true).animate({
-					    scrollTop: $('#navBar').offset().top
-					  })
-					})
-				}
-				else if (el=='b3') {
-					$('#s3').fadeIn(500,function () {
-						$('body,html').stop(true,true).animate({
-					    scrollTop: $('#navBar').offset().top
-					  })
-					})
-				}
-				else if (el=='b4') {
-					$('#s4').fadeIn(500,function () {
-						$('body,html').stop(true,true).animate({
-					    scrollTop: $('#navBar').offset().top
-					  })
-					})
-				}
-				else if (el=='b5') {
-					$('#s5').fadeIn(500,function () {
-						$('body,html').stop(true,true).animate({
-					    scrollTop: $('#navBar').offset().top
-					  })
-					})
-				}
-				else if (el=='b6') {
-					$('#s6').fadeIn(500,function () {
-						$('body,html').stop(true,true).animate({
-					    scrollTop: $('#navBar').offset().top
-					  })
-					})
-				}
-				else if (el=='b7') {
-					$('#s7').fadeIn(500,function () {
-						$('body,html').stop(true,true).animate({
-					    scrollTop: $('#navBar').offset().top
-					  })
-					})
-				}
-				else{console.log('Algo falla en la botonera')};
-			})
-		});
-	})
+$(document).on('ready',function(){
 	
-	$('.btnRetorno').on('click', function () {
-		$('#nav2').fadeOut(500,function(){
-			$('article').fadeOut(500, function(){
-				botones.fadeIn(500);
-				bio.fadeIn();
+	console.log("jQuery Listo");
 
-			});
-			
-		})
-	})
-})
+	var slideout = new Slideout({
+	    'panel': document.getElementById('panel'),
+	    'menu': document.getElementById('menu'),
+	    'padding': 256,
+	    'tolerance': 70,
+	    'duration' : 200
+	});
+	 slideout.on('open',function(){
+	 	$('#nav-icon').addClass('open');
+	 });
+	 slideout.on('close',function(){
+	 	$('#nav-icon').removeClass('open');
+	 });
+	$('#nav-icon').click(function(){
+		$(this).toggleClass('open');
+		slideout.toggle();
+	});
+
+});
 

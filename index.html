@@ -15,128 +15,40 @@
   <title>Ivan Bardon</title>
 </head>
 <body>
-  <header>
-    <br>
-    <figure>
-      <img src="images/avatar.jpg" class="avatar"alt="avatar" />
-    </figure>
-    <div id="cajaNombre">
-      <h1>Ivan Bardon.<span>&nbsp;</span></h1>
+  <nav id="menu">
+    <header>
+      <h2>Menu</h2>
+    </header>
+  </nav>
+  <section id="panel">
+    <div id="nav-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
-    <h3>FrontEnd developer · BackEnd beginner · JavaScript · Node.js</h3>
-    <h4><i>"el diseño no es lo mío"</i></h4>
-  </header>
-  <hr id="ancla1">
-  <section>
-    <nav id="navBar">
-      <article id="bio"><p>Estos son algunos de los proyectos que estoy desarrollando.</p>
-      <p>Echales un vistazo.</p></article>
-      <ul>
-        <li id="b1"><figure class="rojo"><p>mI</p></figure>mapIt</li>
-        <li id="b2"><figure class="verdeClaro"><p>lA</p></figure>l'Agenda</li>
-        <!-- <li id="b3"><figure class="amarillo"><p>iF</p></figure>instaFeed</li>
-        <li id="b4"><figure class="verde"><p>Ba</p></figure>bandInfo</li>
-        <li id="b5"><figure class="azul"><p>rS</p></figure>reSizer</li>
-        <li id="b6"><figure class="rojo"><p>Si</p></figure>Signes</li> -->
-        <li id="b7"><figure class="purple"><p>aT</p></figure>aTaula</li>
-      </ul>
-    </nav>
+    <section id="poster">
+      <figure>
+        <img src="images/avatar.jpg" class="avatar" alt="avatar" />
+      </figure>
+      <div id="cajaNombre">
+        <h1>Ivan Bardon.<span>&nbsp;</span></h1>
+      </div>
+      <h3>FrontEnd developer · BackEnd beginner <br>
+          JavaScript · Backbone.js · Node.js</h3>
+      <h4><i>"el diseño no es lo mío"</i></h4>
+    </section>
+    <section id="bio">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa labore excepturi animi temporibus, voluptatum dolore eaque, a perferendis recusandae odio maxime eos dolorum aperiam perspiciatis illum magnam et repellendus natus!</p>
+    </section>
   </section>
-  <section id="nav2">
-    <article id="s1">
-      <figure class="rojo"><p>mI</p></figure>
-      <div class="cajaTitulo">
-        <h2>mapIt</h2>
-      </div>
-      <p class="textoNav2">mapIt es un proyecto personal para mostrar información y dar servicios a través de mapas.</p>
-      <p>Actualmente esta ofreciendo un servicio para marcar un punto en el mapa y asociarle una nota, es simple  y efectivo, la nota se genera en forma de link que puedes guardar o compartir.</p>
-      <p>mapIt no precisa de registro ni tiene base de datos, por lo que el usuario tiene el control absoluto.</p>
-      <div class="cajaBotones">
-        <button class="btnRetorno" type="button">Volver</button>
-        <a href="http://ivanbardon.github.io/mapit"><button class="btnIr" type="button">Visitar</button></a>
-      </div>
-    </article>
-    <article id="s2">
-      <figure class="verdeClaro"><p>lA</p></figure>
-      <div class="cajaTitulo">
-        <h2>l'Agenda</h2>
-      </div>
-      <p class="textoNav2">Este es un proyecto que saca el máximo partido a una propiedad de todos los navegadores, el "Object Date()", con la información que nos devuelve este objeto y un poco de imaginación he creado una agenda que muestra eventos en el momento que estos suceden, en este caso lo he aplicado al calendário de fiestas de un pueblo y a su agenda</p>
-      <p class="textoNav2">Esta aplicación está desarrollada basicamente con Javascript utilizando en el Front-end un patron Modelo Vista Controlador(MVC) que brinda BackboneJs.
-      </p>
-      <p class="textoNav2">El lado del servidor(Back-end) y el Api-Rest estan desarrolladas en PHP.
-      </p>
-      <div class="cajaBotones">
-        <button class="btnRetorno" type="button">Volver</button>
-        <a href="http://appbeta.esy.es/index.html"><button class="btnIr" type="button">Visitar</button></a>
-      </div>
-    </article>
-    <!-- <article id="s3">
-      <figure class="amarillo"><p>iF</p></figure>
-      <div class="cajaTitulo">
-        <h2>instaFeed</h2>
-      </div>
-      <p class="textoNav2">Que es tendéncia en Instagram? La verdad es que no importa demasiado.</p>
-      <p>Con esta herramienta podrás hacer busquedas dentro de esta popular red de fotografías sin necesidad de estar registrad@</p>
-      <p>Puedes incluir una sección en tu web como un concurso, grácias a esta herramienta, o simplemente una sección en la que mostrar las fotos que los usuarios hacen sobre algún evento</p>
-      <div class="cajaBotones">
-        <button class="btnRetorno" type="button">Volver</button>
-        <button class="btnIr" type="button" onclick="enlaces('instafeed')">Visitar</button>
-      </div>
-    </article>
-    <article id="s4">
-      <figure class="verde"><p>Ba</p></figure>
-      <div class="cajaTitulo">
-        <h2>Band Info</h2>
-      </div>
-      <p class="textoNav2">En esta ocasión estoy trabajando con la API de Last.Fm para mostrar información del grupo musical que el usuário elija.</p>
-      <div class="cajaBotones">
-        <button class="btnRetorno" type="button">Volver</button>
-        <button class="btnIr" type="button" onclick="enlaces('bandinfo')">Visitar</button>
-      </div>
-    </article>
-    <article id="s5">
-      <figure class="azul"><p>rS</p></figure>
-      <div class="cajaTitulo">
-        <h2>reSizer</h2>
-      </div>
-      <p class="textoNav2">Con este ejercicio he creado un boton para aumentar el tamaño de la fuente en la sección de la web que nosotros decidámos, por supuesto tambien se puede reducir.</p>
-      <div class="cajaBotones">
-        <button class="btnRetorno" type="button">Volver</button>
-        <button class="btnIr" type="button" onclick="enlaces('resizr')">Visitar</button>
-      </div>
-    </article>
-    <article id="s6">
-      <figure class="rojo"><p>Si</p></figure>
-      <div class="cajaTitulo">
-        <h2>Signes</h2>
-      </div>
-      <p class="textoNav2">Este es un proyecto colobarativo que estoy realizando con Raquel Fonellosa y que tiene como finalidad ayudar a las personas con problemas auditívos en su vida digital.</p>
-      <p>..Y hasta aquí puedo leer.</p>
-      <div class="cajaBotones">
-        <button class="btnRetorno" type="button">Volver</button>
-        <button class="btnIr" type="button" onclick="enlaces('signes')">Visitar</button>
-      </div>
-    </article> -->
-    <article id="s7">
-      <figure class="purple"><p>aT</p></figure>
-      <div class="cajaTitulo">
-        <h2>aTaula</h2>
-      </div>
-      <p class="textoNav2">aTaula estara ntre natros molt pronte.</p>
-      <div class="cajaBotones">
-        <button class="btnRetorno" type="button">Volver</button>
-        <a href="#"><button class="btnIr" type="button">Visitar</button></a>
-      </div>
-    </article>
-  </section>
-  <hr id="ancla2">
-  <footer>
-    <address>appßeta &copy 2013-2014</address>
-  </footer>
+  
   <!-- Area de Scripts -->
   <script src="vendors/jquery-2.1.1.min.js"></script>
   <script src="main.js"></script>
+  <script src="node_modules/slideout/dist/slideout.min.js"></script>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
