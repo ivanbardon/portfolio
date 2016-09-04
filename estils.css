@@ -25,6 +25,9 @@ body {
 	font-family: 'Fira Mono';
 	font-size: 18px;
 }
+header a {
+  text-decoration: none;
+}
 
 #poster figure {
 	text-align: center;
